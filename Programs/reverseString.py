@@ -18,5 +18,19 @@ def reverse_string_recursion(string):
     print(string[0], end='')
 
 
+def reverse_string_using_stack(string):
+
+    arr = []
+    for value in string:
+        arr.append(value)
+
+    reverse_value = ""
+    for val in range(len(arr)):
+        reverse_value += arr.pop()
+
+    return reverse_value
+
+
 print(reverse_string("Maaz"))
 reverse_string_recursion("Maaz")
+print(reverse_string_using_stack("Maaz"))
