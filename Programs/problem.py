@@ -2,21 +2,22 @@
 import numpy as np
 
 array = np.array([3, 6, 9, 12])
-list = [3, 6, 9, 12]
+_list = [3, 6, 9, 12]
 
-division_array = array/3
-# division_list = list/3
+# division_array = array//3
+# division_list = _list/3
 
 # print(division_array)
 # print(type(division_array))
-#
+
 # print(division_list)
 # print(type(division_list))
 
 # print(len(array))
 
 
-# print(12/2*3)
+print(12/2*3)
+print(12/2*3**2)
 
 
 def primeNoInBetween(lower, upper):
@@ -33,4 +34,4 @@ def primeNoInBetween(lower, upper):
     return prime_number
 
 
-print(primeNoInBetween(5, 10))
+# print(primeNoInBetween(5, 10))

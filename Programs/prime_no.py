@@ -12,7 +12,7 @@ def primeNumber(n):
     return prime_numbers
 
 
-# print(primeNumber(11))
+print(primeNumber(11))
 
 
 def primeNumberInBetween(lower=None, upper=None):
@@ -28,12 +28,9 @@ def primeNumberInBetween(lower=None, upper=None):
                 prime_numbers.append(i)
             # else:
             #     prime_numbers.append(i)
-    return "Prime numbers between {} and {} are: {}".format(lower, upper, prime_numbers)
+    return f"Prime numbers between {lower} and {upper} are: {prime_numbers}"
 
 
-# lower = int(input("Enter lower range: "))
-# upper = int(input("Enter upper range: "))
-#
-# print(primeNumberInBetween(lower, upper))
-
-print(4%2);
+lower = int(input("Enter lower range: "))
+upper = int(input("Enter upper range: "))
+print(primeNumberInBetween(lower, upper))
