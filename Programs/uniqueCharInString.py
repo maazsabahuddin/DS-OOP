@@ -9,4 +9,5 @@ def uniqueCharInString(string="Maaz"):
     return True
 
 
-# print(uniqueCharInString("Maz"))
+print(uniqueCharInString("Maaz"))
+print(uniqueCharInString("Maz"))

@@ -32,5 +32,5 @@ def reverse_string_using_stack(string):
 
 
 print(reverse_string("Maaz"))
-reverse_string_recursion("Maaz")
-print(reverse_string_using_stack("Maaz"))
+# reverse_string_recursion("Maaz")
+# print(reverse_string_using_stack("Maaz"))

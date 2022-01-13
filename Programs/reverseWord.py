@@ -5,7 +5,7 @@ def reverseWord(word=""):
     for i in range(len(word)-1, -1, -1):
         # print(word[i])
         reversed += word[i]
-    return reversed
+    return w
 
 
 print(reverseWord("Maaz"))
